@@ -81,7 +81,6 @@ namespace JsonParseTest
             Assert.True(poco.FakeList01.All(elem => arr.Contains(elem)));
 
             Assert.AreEqual(0, poco.FakeList02.Count);
-            Assert.True(poco.FakeList02.All(elem => arr.Contains(elem)));
         }
     }
 }
